@@ -19,6 +19,7 @@
 		50F95B9A235DDD6400CD188D /* RKAllocationAssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F95B95235DDD6400CD188D /* RKAllocationAssetModel.swift */; };
 		50F95B9B235DDD6400CD188D /* RKAllocatiomBarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F95B96235DDD6400CD188D /* RKAllocatiomBarConstants.swift */; };
 		50F95B9D235DDD9200CD188D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F95B9C235DDD9200CD188D /* Color.swift */; };
+		50F95BA0235DDF3F00CD188D /* Screen Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F95B9F235DDF3F00CD188D /* Screen Shot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		50F95B95235DDD6400CD188D /* RKAllocationAssetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKAllocationAssetModel.swift; sourceTree = "<group>"; };
 		50F95B96235DDD6400CD188D /* RKAllocatiomBarConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKAllocatiomBarConstants.swift; sourceTree = "<group>"; };
 		50F95B9C235DDD9200CD188D /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		50F95B9F235DDF3F00CD188D /* Screen Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot.png"; path = "../../../Screen Shot.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +70,16 @@
 		50F95B7C235DDD5200CD188D /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				50F95B9C235DDD9200CD188D /* Color.swift */,
 				50F95B91235DDD6400CD188D /* RKAllocationBar */,
 				50F95B7D235DDD5200CD188D /* AppDelegate.swift */,
 				50F95B7F235DDD5200CD188D /* SceneDelegate.swift */,
 				50F95B81235DDD5200CD188D /* ViewController.swift */,
+				50F95B9C235DDD9200CD188D /* Color.swift */,
 				50F95B83235DDD5200CD188D /* Main.storyboard */,
 				50F95B86235DDD5300CD188D /* Assets.xcassets */,
 				50F95B88235DDD5300CD188D /* LaunchScreen.storyboard */,
 				50F95B8B235DDD5300CD188D /* Info.plist */,
+				50F95B9E235DDF2000CD188D /* ScreenShots */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -92,6 +95,14 @@
 			);
 			name = RKAllocationBar;
 			path = ../../RKAllocationBar;
+			sourceTree = "<group>";
+		};
+		50F95B9E235DDF2000CD188D /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				50F95B9F235DDF3F00CD188D /* Screen Shot.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F95BA0235DDF3F00CD188D /* Screen Shot.png in Resources */,
 				50F95B8A235DDD5300CD188D /* LaunchScreen.storyboard in Resources */,
 				50F95B87235DDD5300CD188D /* Assets.xcassets in Resources */,
 				50F95B85235DDD5200CD188D /* Main.storyboard in Resources */,
