@@ -1,8 +1,5 @@
 # RKAllocationBar
 
-RKAllocationBar
-=================
-
 How to install:
 
 1. Clone or Download the project
@@ -13,4 +10,4 @@ How to install:
 Screen Shots
 =================
 
-![alt text](https://github.com/rajanikants/Red_Panda_Assignment/blob/master/Screen%20Shot%202018-05-02%20at%206.35.03%20PM.png)
+![alt text](https://github.com/rajanikants/RKAllocationBar/blob/master/Screen%20Shot.png)
